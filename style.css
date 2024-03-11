@@ -50,7 +50,10 @@ body[
     border-left: 2px solid var(--botao-ativo);
     border-right: 2px solid var(--botao-ativo);
     border-top: nome
+}
 
+.botao::first-child{
+    border-radius: ;40px 40px 0 o;
 }
 .botoes {
     displey: block;
@@ -58,6 +61,12 @@ body[
 @media  screen and (min-width: 768px)
 .bostos {
     display: flex;
-    
+} 
+
+.botao::first-child{
+    border-radius:  40px 0 0 0;
+}
+.botao::first-child{
+    border-radius: 0 40px 0 0;
 }
  
